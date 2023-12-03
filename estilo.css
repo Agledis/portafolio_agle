@@ -29,7 +29,7 @@ img {
 
     width: 80px;
      height: 100px;
-     align="right";
+     border-radius:150px
 }
 
 h3 {
@@ -144,14 +144,72 @@ nav {
   .mas-sobre {
     background-color: var(--bg-color);
     padding: 1rem 6rem;
+   
   }
   
   .mas-sobre h2 {
     margin-bottom: var(--bottom-margin);
-    text-align: center;
+    text-align: left;
+    
+   
+  
   }
   
   .mas-sobre p {
+
+
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
     line-height: var(--line-height);
-    padding: 0.4rem;
+
+    
+  }
+
+  .habilidades {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .encabezado-habilidad {
+    margin-bottom: 1rem;
+  }
+  
+  .contenedor-habilidad img {
+    padding: 1.25rem;
+  }
+  
+  .icono {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+
+  .tarjeta-icono {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .contacto {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+  .input-field::placeholder {
+    padding: 0.5rem;
+    color: var(--primary-color);
   }
